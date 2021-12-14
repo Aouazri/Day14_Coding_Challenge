@@ -35,6 +35,8 @@ def answer(dict1,dict2,user_answer):
 print(logo)
 first_choice= random_choice(data)
 second_choice= random_choice(data)
+if first_choice == second_choice:
+  second_choice= random_choice(data)
 score= 0
 should_continue=True
 #while will be here
